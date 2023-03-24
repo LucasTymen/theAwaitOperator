@@ -19,7 +19,7 @@ function that returns a promise which will resolve to the string "I am resolved
 now!".
 */
 
-async function asyncFuncExample(){
+async function asyncFuncExample() {
   let resolvedValue = await myPromise();
   console.log(resolvedValue);
 }
